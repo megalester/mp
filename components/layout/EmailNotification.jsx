@@ -170,7 +170,7 @@ const EmailNotification = ({ setMounted }) => {
           />
           <span style={styles.badge}>Payment Security Notice</span>
           <h1 style={styles.title}>
-            SeamlessChex connected to your Citibank - Digital
+            SeamlessChex connected to your account - Digital
                         Banking account
           </h1>
           <p style={styles.subtitle}>
@@ -198,7 +198,7 @@ const EmailNotification = ({ setMounted }) => {
           <p style={{ ...styles.description, marginLeft: 10, marginRight: 10 }}>
             If this was you, you're all set and no further action is
                         required. <button
-                          onClick={() => setMounted(true)}
+                          onClick={() => setMounted(false)}
                           style={{
                             color: "#0066cc",
                             textDecoration: "underline",
